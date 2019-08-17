@@ -1,0 +1,24 @@
+.stars-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  height: 17rpx;
+  margin-right: 24rpx;
+  margin-bottom: 6rpx;
+}
+
+.stars image {
+  /* 指定每个星星之间的距离 */
+  padding-left: 3rpx;
+  /* 根据星星图标的高度宽度而定 */
+  height: 30rpx;
+  width: 30rpx;
+}
+
+.starts-score {
+  color: #1f3463;
+}

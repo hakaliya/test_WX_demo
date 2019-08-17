@@ -1,0 +1,12 @@
+@import "../movie/movie-template.wxss";
+@import "../stars/stars-template.wxss";
+
+.single-view-container {
+  float: left;
+  margin-bottom: 30rpx;
+}
+
+.grid-container {
+  margin:40rpx 0 40rpx 7rpx;
+  height: 1300rpx;
+} 

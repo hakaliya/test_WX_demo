@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 160rpx;
+}
+
+.user_name {
+  
+  font-size: 40rpx;
+  font-weight: bold;
+
+}
+
+.start {
+  font-size: 22rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #405f80;
+}
+
+
+.start_container {
+  margin-top: 200rpx;
+  border: 1px solid #405f80;
+  height: 80rpx;
+  width: 200rpx;
+  border-radius: 5px;
+}
+page {
+  background-color: #b3d4db;
+  height: 100%;
+}
+

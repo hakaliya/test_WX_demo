@@ -1,0 +1,18 @@
+<!-- 引入星星和评分模板 -->
+<import src="../stars/stars-template.wxml" />
+<template name="movieTemplate">
+  <view class="movie-container">
+    <!-- 电影图片 -->
+
+    <view class="div">
+      <image class="movie-img"  bindtap="onMovieTap" data-movieId="{{movie.movieId}}" src="{{movie.coverageUrl}}"></image>
+    </view>
+
+
+    <text class="movie-title">{{movie.title}}</text>
+    <view>
+      <!-- 星星和打分 -->
+      <template is="starsTemplate" data="{{stars:movie.stars, score:movie.average}}" />
+    </view>
+  </view>
+</template>

@@ -1,0 +1,4 @@
+@import "../movie/movie-template.wxss";
+@import "../movie-grid/movie-grid-template.wxss";
+
+

@@ -1,0 +1,13 @@
+<view class="container">
+  <image src="/images/avatar.jpg" class="user_avatar"></image>
+  <text selectable="true" class="user_name">
+    Hello, 李泽峰
+  </text>
+
+
+  <view class="start_container" bind:tap = "onTap">
+    <text class="start" >
+      开启小程序之旅
+    </text>
+  </view>
+</view>
